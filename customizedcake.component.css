@@ -1,0 +1,153 @@
+.block{
+    width: 33%;
+    margin: 6px;
+} 
+
+.card{
+    padding: 20px;
+    margin: 40px;
+}
+.item img{
+    width: 64px;
+}
+
+.form-control{
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search-icon{
+
+position: absolute;
+z-index: 10;
+right: 55%;
+top: 90px;
+color: blue;
+}
+
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid  rgba(0,0,0,0.2);
+    border-radius: .25rem;
+}
+.item{
+    margin: 0px 15px;
+    text-align: center;
+}
+
+a:link, a:visited {
+   
+    color: black;
+    text-decoration: none;
+   
+  }
+  
+  a:hover, a:active {
+    color: blueviolet;
+  }
+  
+/* .item a:hover{
+    color: blue;
+    cursor: pointer;
+} */
+.btn1{
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+    
+}
+
+.form-control{
+    display: inline;
+}
+
+.form-group{
+    background-color: beige;
+}
+
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(52, 0, 130);
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+  }
+/*   
+  input[type=submit]:hover {
+    background-color: #45a049;
+  } */
+  
+
+
+
+
+.imag{
+    filter: brightness(70%);
+    height: 200vh;
+    
+  }
+
+  
+    
+
+.content{
+        color:bisque;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: baloo bhai;
+    }
+.heading{
+    margin-top: 50px;
+    font-size: 7ch;
+    color: white;
+}
+
+
+.container {
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #9b59b6;
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+}
+.container content{
+    color: purple;
+}
+select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+   .custom-file{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+  } 
+  .custom-file input{
+    position: absolute;
+    bottom: 19.2%;
+    float: right;
+  }

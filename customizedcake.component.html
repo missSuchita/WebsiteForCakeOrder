@@ -1,0 +1,131 @@
+
+<header>
+    <div class="form-group top-header">
+        <input type="text" class="form-control" placeholder="Search Your Cake">
+
+        <span class="fa fa-search search-icon"></span>
+
+        <button routerLink="/cart" class="btn btn-primary btn1">
+            <i class="fas fa-cart-plus"></i>
+
+            <div style="font-size: 8px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+
+<div class="card-top container-fluid">
+    <div class="block d-flex">
+        <div class="item">
+            <a routerLink="/eggless">
+                <img src="https://www.cakengifts.in/product-images/bfcr001-black-forest-cake-in-round/regular/black-forest-cake-in-round.jpg"
+                    alt="">
+                <h6>EggLess</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a routerLink="/eggcake">
+                <img style="height: 65px; "
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRvCRsR1Pn7jG-p8-bsTLRKBPLRnUak2w3uA&usqp=CAU"
+                    alt="">
+                <h6>Egg</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a routerLink="/customizedcake">
+                <img style="height: 65px; "
+                    src="https://www.cakengifts.in/product-images/CGC1126-round-pineapple-cake-n-cherry/regular/round-pineapple-cake-n-cherry.jpg"
+                    alt="">
+                <h6>Customized Cake</h6>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="bg-image ">
+    <div class="imag">
+        <img src="https://img.freepik.com/free-vector/sweet-pastries-chalkboard_1284-3606.jpg?w=996&t=st=1664637435~exp=1664638035~hmac=1b8ae0c11f11c2b5cb14ee91fe327edbebe11a1921140526d840ee89636aa602 " class="w-100 " />    </div>
+    <div class="mask ">
+    <div class="flex flex-col text-center w-full mb-12">
+        <!-- <div class="heading">
+            <p style=" margin-top:40px">Customize Your Cake</p>
+        </div><br><br><br> -->
+        <div class="container">
+            <div class="content">
+                <p>Appreciate your choice. We will provide </p>
+                <p>you the customization of cake at the best !!</p>
+            </div><br><br>
+            <!-- <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Proceed to your customization</h2><br> -->
+            <h4>Choose type of cake</h4>
+            <select class="custom-select">
+                <option selected>Open this select menu</option>
+                <option value="1">Cream</option>
+                <option value="2">Fondant</option>
+            </select>
+            <h4>Choose weight of cake</h4>
+            <select class="custom-select">
+                <option selected>Open this select menu</option>
+                <option value="1">250 gm</option>
+                <option value="2">500 gm</option>
+                <option value="3">1 kg</option>
+                <option value="4">1.5 kg</option>
+                <option value="5">2 kg</option>
+                <option value="6">3 kg</option>
+                <option value="7">5 kg</option>
+            </select>
+            <h4>Choose shape of cake</h4>
+            <select class="custom-select">
+                <option selected>Open this select menu</option>
+                <option value="1">Circle</option>
+                <option value="2">Square</option>
+                <option value="3">Rectangle</option>
+                <option value="4">Heart</option>
+            </select>
+            <h4>Choose flavours for cake</h4>
+            <select class="custom-select">
+                <option selected>Open this select menu</option>
+                <option value="1">Chocolate</option>
+                <option value="2">Strawberry</option>
+                <option value="3">Pineapple</option>
+                <option value="4">Vanilla</option>
+                <option value="5">Red Velvet</option>
+                <option value="6">Butterscotch</option>
+                <option value="7">Blueberry</option>
+                <option value="8">Fruit Cake</option>
+            </select>
+            <h4>Choose occasions</h4>
+            <select class="custom-select">
+                <option selected>Open this select menu</option>
+                <option value="1">Happy Birthday</option>
+                <option value="2">Happy Anniversary</option>
+            </select>
+            <h4>Choose toppers for cake</h4>
+            <select class="custom-select">
+                <option selected>Open this select menu</option>
+                <option value="1">Happy Birthday</option>
+                <option value="2">Happy Anniversary</option>
+                <option value="3">Best Brother</option>
+                <option value="4">Best Sister</option>
+            </select>
+            <h4>Upload image to print on the cake or image of any design as required</h4>
+            <div class="custom-file">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                  </div>
+                <input type="file" class="custom-file-input" id="customFile">
+                
+            </div>
+            <div>
+                <input type="submit" value="Bake">
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
